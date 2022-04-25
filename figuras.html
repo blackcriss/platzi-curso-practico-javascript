@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curso práctico de JavaScript en Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras geométricas
+        </h1>
+        <p>
+            Este es el primer taller práctico del
+            curso de JavaScript
+        </p>
+    </header>
+
+    <section>
+        <h2>
+            ------CUADRADO------
+        </h2>
+
+        <form>
+            <label for="InputCuadrado">
+                Lados del cuadrado
+            </label>
+            <input id="InputCuadrado" type="number"/>
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Área
+            </button>
+        </form>
+
+    </section>
+
+    <section>
+        <h2>
+            ------TRIANGULO------
+        </h2>
+
+        <form>
+            <label for="InputTrianguloLado1">
+                Lado #1
+            </label>
+            <input id="InputTrianguloLado1" type="number"/>
+
+            <label for="InputTrianguloLado2">
+                Lado #2
+            </label>
+            <input id="InputTrianguloLado2" type="number"/>
+
+            <label for="InputTrianguloBase">
+                Base
+            </label>
+            <input id="InputTrianguloBase" type="number"/>
+
+            <label for="InputTrianguloAltura">
+                Altura
+            </label>
+            <input id="InputTrianguloAltura" type="number"/>
+
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Área
+            </button>
+        </form>
+
+    </section>
+
+    <section>
+        <h2>
+            ------CIRCULO------
+        </h2>
+
+        <form>
+            <label for="InputCirculo">
+                Radio
+            </label>
+            <input id="InputCirculo" type="number"/>
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCirculo()">
+                Área
+            </button>
+        </form>
+
+    </section>
+
+    <script src="./figuras.js"></script>
+</body>
+</html>
